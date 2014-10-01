@@ -32,7 +32,7 @@ Just tell Mixmux to start the application, as if it was already available:
     iex(4)> Jazz.encode [1, "2", [3]]
     {:ok, "[1,\"2\",[3]]"}
 
-You can remove packages as well (which implies, of course, that you can upgrade packages):
+You can remove packages as well (thus allowing a limited form of upgrading):
 
     iex(6)> Mixmux.remove :jazz
     01:16:45.069 [info]  Application jazz exited: :stopped
