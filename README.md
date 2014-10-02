@@ -1,7 +1,7 @@
 mixmux
 ======
 
-mixmux lets you use an Erlang VM sort of like a Unix system, where you can manipulate the active set of installed packages with commands sent to the running system itself.
+mixmux lets you treat a running iex session sort of like an administrative shell on a Unix system, where you can tell the running system to reconfigure itself by installing/removing packages.
 
 Typing some commands and realize that you need a package?
 
