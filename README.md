@@ -43,3 +43,5 @@ You can remove packages as well (thus allowing a limited form of upgrading):
     iex(7)> Jazz.encode [1, "2", [3]]
     ** (UndefinedFunctionError) undefined function: Jazz.encode/1 (module Jazz is not available)
         Jazz.encode([1, "2", [3]])
+
+mixmux's installed packages, and their build files, are kept separate from your regular mix deps and build files. Deps retrieved by mixmux appear in the `mixmux/` directory, and build into the `_build/mixmux/` directory.
